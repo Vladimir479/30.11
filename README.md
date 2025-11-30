@@ -61,12 +61,7 @@ int main() {
             printf("\nВведите x: ");
             scanf("%lf", &x);
             double result = f(x);
-            if (result >= 0) {
-                printf("f(%.10f) = %.10f\n", x, result);
-            }
-            else {
-                printf("Функция не определена в точке x=%.10f\n", x);
-            }
+            printf("f(%.10f) = %.10f\n", x, result);
             break;
         case 2:
             printf("\nВведите начало интервала: ");
